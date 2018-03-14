@@ -91,7 +91,7 @@ Widget _buildSuggestions(List<ImageSource> images) {
 Widget _buildRow(images) {
   return new ListTile(
     title: new Image.network(
-      images.url + '?imageView2/0/w/900', fit: BoxFit.fitWidth,),
+      images.url,),
 
   );
 }
